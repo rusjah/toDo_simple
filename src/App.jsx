@@ -8,13 +8,7 @@ import Todo from './components/Todo';
 
 function App() {
 
-  let [todos, setTodos] = useState([{
-    id: Math.floor(Math.random() * 9999999),
-    data: "24.01.1222",
-    time: "10:12",
-    note: "Make homework"
-  }
-  ]);
+  let [todos, setTodos] = useState([]);
 
 
   const getDate = () => {
